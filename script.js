@@ -13,9 +13,9 @@ function checking () {
     realAge = parseInt(realAge)
     if (realAge === 16) {
       alert('You got it rigth! Do you want to play again? ')
-    } else if (16 > realAge) {
+    } else if (realAge < 16) {
       alert('You guessed too small, please try again.')
-    } else if (16 < realAge) {
+    } else if (realAge > 16) {
       alert('You guessed too big, please try again.')
     } else {
       alert('Invalid answer. Please try again.')
