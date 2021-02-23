@@ -12,13 +12,13 @@ function checking () {
     realAge = prompt('Would you like to guess my age?')
     realAge = parseInt(realAge)
     if (realAge === 16) {
-      alert ('You got it rigth! Do you want to play again? ')
+      alert('You got it rigth! Do you want to play again? ')
     } else if (16 > realAge) {
-      alert ('You guessed too small, please try again.')
+      alert('You guessed too small, please try again.')
     } else if (16 < realAge) {
-      alert ('You guessed too big, please try again.')
+      alert('You guessed too big, please try again.')
     } else {
-      alert ('Invalid answer. Please try again.')
+      alert('Invalid answer. Please try again.')
     }
   }
 }
